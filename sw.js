@@ -1,4 +1,4 @@
-importScripts('/06-twittor/js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 const STATIC_CACHE = 'static-cache-v1';
 const DYNAMIC_CACHE = 'dynamic-cache-v1';
@@ -21,8 +21,8 @@ const APP_SHELL_INMUTABLE =[
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    '/06-twittor/css/animate.css',
-    '/06-twittor/js/libs/jquery.js'
+    'css/animate.css',
+    'js/libs/jquery.js'
 ]
 
 self.addEventListener('install', e=>{
