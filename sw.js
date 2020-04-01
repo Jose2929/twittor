@@ -5,16 +5,16 @@ const DYNAMIC_CACHE = 'dynamic-cache-v1';
 const INMUTABLE_CACHE = 'inmutable-cache-v1';
 
 const APP_SHELL = [
-    '/06-twittor/',
-    '/06-twittor/index.html',
-    '/06-twittor/css/style.css',
-    '/06-twittor/img/favicon.ico',
-    '/06-twittor/img/avatars/hulk.jpg',
-    '/06-twittor/img/avatars/ironman.jpg',
-    '/06-twittor/img/avatars/spiderman.jpg',
-    '/06-twittor/img/avatars/thor.jpg',
-    '/06-twittor/img/avatars/wolverine.jpg',
-    '/06-twittor/js/app.js'
+    //'/',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'avatars/hulk.jpg',
+    'avatars/ironman.jpg',
+    'avatars/spiderman.jpg',
+    'avatars/thor.jpg',
+    'avatars/wolverine.jpg',
+    'app.js'
 ]; 
 
 const APP_SHELL_INMUTABLE =[
